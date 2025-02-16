@@ -3,11 +3,10 @@ const shortid = require("shortid");
 
 const urlSchema = new mongoose.Schema(
   {
-    shortId: {
+    shortID: {
       type: String,
       required: true,
       unique: true,
-      default: shortid.generate,
     },
     redirectURL: {
       type: String,
