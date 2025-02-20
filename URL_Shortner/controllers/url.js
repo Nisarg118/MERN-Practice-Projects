@@ -18,7 +18,7 @@ async function handleGenerateURL(req, res) {
 
   return res.render("home", {
     id: shortID,
-  });
+  }); 
 }
 
 async function handleGetAnalytics(req, res) {
